@@ -55,6 +55,87 @@ border: 3px solid black;
 	max-width: 50px;
 }
 
+/****hover on anchor tags****/
+a:hover {
+
+	font-size: 50px;
+}
+/****hover on active tags****/
+a:active {
+	background-color: green;
+}
+
+/****hover on focs tags****/
+input:focus {
+background-color: yellow;
+}
+/****nth child ****/
+
+.sub-div li:nth-child(2n+1){
+border:pink 5px solid;
+}
+.sub-div li:nth-child(2n){
+border:blue 5px solid;
+}
+
+.sub-div li:nth-of-type(2n) {
+color:blue;
+}
+
+section p:nth-child(2) {
+color: red;
+}
+
+section p:nth-of-type(2) {
+color: orange;
+}
+
+/**before***/
+#main-div-1::before {
+content: "\201c";
+font-size: 60px;
+font-weight: bold;
+color: purple;
+}
+
+#main-div-1::after {
+content: "$$$$";
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
